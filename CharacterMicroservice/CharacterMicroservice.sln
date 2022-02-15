@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32106.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CharacterAPI", "CharacterAPI", "{01176CB7-0997-4D12-8016-141FA97F797A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Character", "Character\Character.csproj", "{56F1F520-358B-4D8A-9036-DF4D8ABF11A4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{56F1F520-358B-4D8A-9036-DF4D8ABF11A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56F1F520-358B-4D8A-9036-DF4D8ABF11A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56F1F520-358B-4D8A-9036-DF4D8ABF11A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56F1F520-358B-4D8A-9036-DF4D8ABF11A4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{56F1F520-358B-4D8A-9036-DF4D8ABF11A4} = {01176CB7-0997-4D12-8016-141FA97F797A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3CFFEFBF-2D5B-4C1B-8FA2-4FB33BFA89ED}
+	EndGlobalSection
+EndGlobal
