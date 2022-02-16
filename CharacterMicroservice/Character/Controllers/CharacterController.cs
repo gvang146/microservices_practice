@@ -23,7 +23,7 @@ namespace Character.Controllers
             _logger = logger;
         }
 
-        [HttpGet]
+        [HttpGet]       
         public Character Get()
         {
             Character chara = new Character();
