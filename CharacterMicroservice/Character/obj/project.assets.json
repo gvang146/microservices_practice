@@ -578,9 +578,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\Character.csproj",
-      "projectName": "Character",
-      "projectPath": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\Character.csproj",
+      "projectUniqueName": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\CharacterAPI.csproj",
+      "projectName": "CharacterAPI",
+      "projectPath": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\CharacterAPI.csproj",
       "packagesPath": "C:\\Users\\Touger\\.nuget\\packages\\",
       "outputPath": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\obj\\",
       "projectStyle": "PackageReference",

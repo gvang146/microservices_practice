@@ -1,8 +1,9 @@
 ﻿using MongoDB.Bson;
 using MongoDB.Bson.Serialization.Attributes;
 using System;
+using System.Text.Json.Serialization;
 
-namespace Character
+namespace CharacterAPI
 {
     public class Character
     {
@@ -11,6 +12,7 @@ namespace Character
         public string Id { get; set; }
 
         [BsonElement("Name")]
+        [JsonPropertyName("Name")]
         public string Name { get; set; }
         public string Power { get; set; }
         public string Description { get; set; }

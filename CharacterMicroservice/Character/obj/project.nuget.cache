@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zle0NU6VR356q0Lc6TYrZAOloc92kFxtM0zD9xSctzH010Mr9rxJuTJc9qAIES+d166108Z0OhkP+O8ZxS/O/A==",
+  "dgSpecHash": "yFOOgcLBLJpwZEDOKiQ3LcufF/4wypB4jhYGfvJzvwkoFgQ36D7WmOmI4Db8tasA6XW1XneOqZqDt0gb6hq6vg==",
   "success": true,
-  "projectFilePath": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\Character.csproj",
+  "projectFilePath": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\CharacterAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Touger\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Touger\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
