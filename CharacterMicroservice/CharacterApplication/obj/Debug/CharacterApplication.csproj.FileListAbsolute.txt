@@ -1,0 +1,7 @@
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\bin\Debug\CharacterApplication.exe.config
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\bin\Debug\CharacterApplication.exe
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\bin\Debug\CharacterApplication.pdb
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.csproj.AssemblyReference.cache
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.csproj.CoreCompileInputs.cache
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.exe
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.pdb
