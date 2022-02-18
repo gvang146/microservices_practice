@@ -5,3 +5,6 @@ C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\Ch
 C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.csproj.CoreCompileInputs.cache
 C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.exe
 C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.pdb
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\bin\Debug\Newtonsoft.Json.dll
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\bin\Debug\Newtonsoft.Json.xml
+C:\Work\GenSpark Training\Day 38\microservices_practice\CharacterMicroservice\CharacterApplication\obj\Debug\CharacterApplication.csproj.CopyComplete

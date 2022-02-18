@@ -1,4 +1,5 @@
 ﻿using CharacterApplication.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,11 +17,11 @@ namespace CharacterApplication
         {
             //Creating a character to post it to the database
             Character character = new Character();
-            character.Name = "Polyphemus";
+            /*character.Name = "Polyphemus";
             character.Power = "Giant";
             character.Description = "Polyphemus is a giant cyclop and is also the son of Poseidon in Greek Mythologies";
             character.Type = "Monster";
-            character.Rank = 56;
+            character.Rank = 56; */
 
             Console.WriteLine("Calling the Character API... ");
             Console.WriteLine();
@@ -36,23 +37,24 @@ namespace CharacterApplication
                     var result = response.Result;
                     if (result.IsSuccessStatusCode)
                     {
-                        var allCharacters = result.Content.ReadAsStringAsync();
-                        allCharacters.Wait();
-                        Console.WriteLine("Printing All Character in a Single String...");
-                        Console.WriteLine(allCharacters.Result);
-                        Console.WriteLine();
+                        Character chara = JsonConvert.DeserializeObject<Character>(Convert.ToString(result));
+                        Console.WriteLine("Id: " + chara.ID + "\tName: " + chara.Name + "\tPower: " + chara.Power);
+                        Console.ReadKey();
                     }
                 }
                 Console.WriteLine();
-                if (responseSingle.IsCompleted)
+                /*if (responseSingle.IsCompleted)
                 {
-                    var result2 = response.Result;
+                    var result2 = responseSingle.Result;
                     if (result2.IsSuccessStatusCode)
                     {
                         var singleChar = result2.Content.ReadAsStringAsync();
                         singleChar.Wait();
+                        Console.WriteLine("Printing a Character in a Single String...");
+                        Console.WriteLine(singleChar.Result);
+                        Console.WriteLine();
                     }
-                }
+                }*/
                 Console.ReadKey();
             }
             catch (Exception ex)
