@@ -8,7 +8,7 @@ namespace CharacterApplication.Models
 {
     public class Character
     {
-        private int _id;
+        private string _id;
         private string _name;
         private string _power;
         private string _description;
@@ -18,15 +18,11 @@ namespace CharacterApplication.Models
         public Character()
         {
         }
-        public Character(int id)
+        public Character(string id)
         {
             ID = id;
         }
-        public Character(string name)
-        {
-            Name = name;
-        }
-        public Character(int id, string name, string power, string description, string type, int rank)
+        public Character(string id, string name, string power, string description, string type, int rank)
         {
             ID = id;
             Name = name;
@@ -35,7 +31,7 @@ namespace CharacterApplication.Models
             Type = type;
             Rank = rank;
         }
-        public int ID
+        public string ID
         {
             get { return _id; }
             set { _id = value; }
