@@ -4,19 +4,27 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net.Http;
+using System.Net.Http.Headers;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace CharacterApplication
 {
-    class Program
+    public class Program
     {
+
         
-        private static readonly HttpClient client = new HttpClient();
+        private static HttpClient client = new HttpClient();
+
         public static async Task Main(string[] args)
         {
+            client.BaseAddress = new Uri("http://localhost:5000/");
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            var response = await client.GetAsync("api/Character");
+            //var responseSingle = client.GetAsync("http://localhost:5000/api/Character/620d288c12e8e4de6f0ebf51");
             //Creating a character to post it to the database
-            Character character = new Character();
+            //Character character = new Character();
             /*character.Name = "Polyphemus";
             character.Power = "Giant";
             character.Description = "Polyphemus is a giant cyclop and is also the son of Poseidon in Greek Mythologies";
@@ -25,24 +33,16 @@ namespace CharacterApplication
 
             Console.WriteLine("Calling the Character API... ");
             Console.WriteLine();
-            var response = client.GetAsync("http://localhost:5000/api/Character");
-            var responseSingle = client.GetAsync("http://localhost:5000/api/Character/620d288c12e8e4de6f0ebf51");
-            response.Wait();
-            responseSingle.Wait();
             //running and returning individual characters
             try
             {
-                if (response.IsCompleted)
+             if (response.IsSuccessStatusCode)
                 {
-                    var result = response.Result;
-                    if (result.IsSuccessStatusCode)
-                    {
-                        Character chara = JsonConvert.DeserializeObject<Character>(Convert.ToString(result));
-                        Console.WriteLine("Id: " + chara.ID + "\tName: " + chara.Name + "\tPower: " + chara.Power);
-                        Console.ReadKey();
-                    }
+                    var data = await response.Content.ReadAsAsync<Character>();
+                    var serData = JsonConvert.SerializeObject(data);
+                    Console.WriteLine(serData.ToList());
                 }
-                Console.WriteLine();
+               
                 /*if (responseSingle.IsCompleted)
                 {
                     var result2 = responseSingle.Result;
@@ -63,6 +63,6 @@ namespace CharacterApplication
             }
 
             
-        }
+        } 
     }
 }
