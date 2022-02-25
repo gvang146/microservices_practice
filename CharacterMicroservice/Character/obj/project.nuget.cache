@@ -1,12 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "yFOOgcLBLJpwZEDOKiQ3LcufF/4wypB4jhYGfvJzvwkoFgQ36D7WmOmI4Db8tasA6XW1XneOqZqDt0gb6hq6vg==",
+  "dgSpecHash": "e0/a6Zv4J5KtwW8jGo3+YoIeZCSmLM72Gl825n9qH++Tlh3bltipCmqlhia+cPqBuJ8ZLh5Tw37y+GcxzFQb2Q==",
   "success": true,
   "projectFilePath": "C:\\Work\\GenSpark Training\\Day 38\\microservices_practice\\CharacterMicroservice\\Character\\CharacterAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Touger\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\Touger\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Touger\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Touger\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.11.1\\microsoft.visualstudio.azure.containers.tools.targets.1.11.1.nupkg.sha512",
     "C:\\Users\\Touger\\.nuget\\packages\\mongodb.bson\\2.14.1\\mongodb.bson.2.14.1.nupkg.sha512",
     "C:\\Users\\Touger\\.nuget\\packages\\mongodb.driver\\2.14.1\\mongodb.driver.2.14.1.nupkg.sha512",
     "C:\\Users\\Touger\\.nuget\\packages\\mongodb.driver.core\\2.14.1\\mongodb.driver.core.2.14.1.nupkg.sha512",
